@@ -894,7 +894,7 @@ load_dwg (char *dwgfilename, xmlNodePtr rootnode)
           break;
 
         case DWG_TYPE_BLOCK:
-          add_block (rootnode, obj);
+          //add_block (rootnode, obj);
           break;
 
         case DWG_TYPE_INSERT:
